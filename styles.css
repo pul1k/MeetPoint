@@ -1,0 +1,154 @@
+/* стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Общий стиль для календаря */
+#calendar {
+    /* стилизация календаря */
+}
+
+/* Дополнительные стили для других элементов на странице */
+h1 {
+    /* стилизация заголовка */
+}
+/* Стили для календаря */
+#calendar {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Стили для заголовка */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Стили для навигации по месяцам */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#prevMonthBtn,
+#nextMonthBtn {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Стили для таблицы календаря */
+#calendarTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendarTable th,
+#calendarTable td {
+    text-align: center;
+    padding: 10px;
+}
+
+#calendarTable th {
+    font-weight: bold;
+}
+
+#calendarTable td {
+    cursor: pointer;
+}
+
+#calendarTable td:hover {
+    background-color: #e6e6e6;
+}
+
+/* Стили для текущего месяца */
+#currentMonth {
+    font-weight: bold;
+}
+
+/* Стили для выбранной даты */
+.selected {
+    background-color: #007bff;
+    color: #fff;
+}
+/* Стили для страницы */
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #282828;
+    margin-top: 50px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-links a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #00ff00;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    background-color: #00cc00;
+}
